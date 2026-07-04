@@ -1,0 +1,209 @@
+patient_id,patient_name,gender,age_years,nationality,department,visit_type,appointment_date,appointment_time,payment_type,consultation_cost,doctor_name,follow_up_required,waiting_time_mins,diagnosis_code,flag_gender,flag_department,flag_visit_type,flag_payment_type,flag_follow_up_required,flag_nationality,flag_diagnosis_code_missing,flag_appointment_date_invalid,flag_appointment_date_missing,flag_appointment_time_invalid,flag_appointment_time_missing,flag_age_years_missing,flag_age_years_impossible,flag_consultation_cost_missing,flag_waiting_time_mins_missing
+DHA00001,Fatima Fernandez,,75.0,british,,,2023-05-04,10:15,corporate,719.58,Patel,no,132.0,I66.8,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00003,Noor Al Zaabi,,19.0,other,dermatology,follow_up,2025-10-04,15:15,free,0.0,Kim,maybe,147.0,Z98.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00005,Ahmed Al Blooshi,,51.0,indian,general,follow_up,2023-04-09,14:15,waived,0.0,Patel,no,27.0,,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00007,Mohammed Santos,,34.0,emirati,general,consultation,2024-07-20,08:45,free,0.0,Patel,no,49.0,K18.5,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00010,Hassan Al Hammadi,,24.0,indian,dermatology,procedure,2025-03-30,15:30,insurance,346.68,Singh,maybe,90.0,J58.8,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00013,Fatima Al Hammadi,,13.0,filipino,cardiology,emergency,2023-04-25,08:45,self_pay,1233.26,Patel,no,41.0,K32.3,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00019,Mohammed Fernandez,,,filipino,orthopedics,emergency,2024-07-09,18:30,corporate,1594.54,Al Marzouqi,yes,10.0,M59.9,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+DHA00020,Mohammed Fernandez,male,83.0,,pediatrics,,2024-11-25,09:00,free,0.0,Santos,yes,54.0,J65.4,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00003,Mariam Fernandez,,28.0,pakistani,orthopedics,emergency,2023-10-07,17:00,self_pay,0.0,Al Rashidi,,49.0,K98.9,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+DHA00025,Noor Sharma,,69.0,emirati,pediatrics,follow_up,2025-01-13,12:00,free,0.0,Santos,yes,71.0,Z50.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00026,Fatima Kumar,female,36.0,filipino,cardiology,consultation,2024-06-28,21:15,,815.65,Singh,yes,5.0,M99.3,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00031,Mohammed Santos,,32.0,british,general,follow_up,2025-02-02,17:45,free,0.0,Al Hashimi,no,36.0,J40.3,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00033,Mohammed Kumar,female,8.0,emirati,orthopedics,follow_up,,20:15,corporate,2279.61,Santos,,95.0,Z59.0,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+DHA00037,Mariam Al Hammadi,,66.0,indian,pediatrics,,2025-03-04,17:15,corporate,1394.1,Al Marzouqi,yes,75.0,Z65.6,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00038,Mohammed Sharma,,51.0,indian,dermatology,procedure,2024-02-22,19:00,corporate,331.63,Singh,no,49.0,K69.0,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00039,Ahmed Kumar,female,60.0,british,,,2024-02-22,13:30,insurance,2545.28,Al Hashimi,no,125.0,J59.0,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00043,Ahmed Santos,,56.0,pakistani,cardiology,follow_up,2024-08-01,08:45,corporate,2654.76,Kim,yes,109.0,,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00044,Ali Fernandez,,70.0,indian,cardiology,follow_up,2023-01-14,13:45,insurance,0.0,Al Hashimi,yes,67.0,Z28.3,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00046,Hassan Sharma,male,78.0,,cardiology,consultation,2023-03-17,18:45,,2928.34,Al Marzouqi,yes,162.0,Z79.2,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False
+DHA00050,Ahmed Al Blooshi,,24.0,other,general,consultation,2024-04-04,16:00,free,0.0,Al Rashidi,yes,80.0,M34.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00051,Mohammed Kumar,,64.0,british,dermatology,follow_up,2023-10-08,21:15,corporate,1734.51,Kim,no,152.0,J74.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00053,Hassan Kumar,,67.0,british,dermatology,follow_up,,14:30,insurance,742.87,Patel,,130.0,,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False
+DHA00054,Mariam Sharma,female,7.0,indian,orthopedics,,2025-04-12,08:45,corporate,1041.28,Kim,yes,45.0,M85.0,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00060,Ahmed Sharma,,52.0,indian,cardiology,emergency,2023-05-13,10:30,insurance,2184.55,Al Marzouqi,yes,57.0,,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00062,Fatima Al Blooshi,,14.0,emirati,,procedure,,21:30,corporate,2293.74,Santos,yes,146.0,K81.0,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00063,Noor Kumar,,11.0,british,general,consultation,2023-09-30,21:30,waived,0.0,Al Hashimi,no,56.0,K43.4,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00068,Fatima Sharma,,33.0,british,dermatology,follow_up,2024-08-29,18:45,corporate,499.15,Al Hashimi,maybe,61.0,,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00069,Ali Al Zaabi,female,,,general,,2023-06-18,12:15,insurance,764.76,Al Rashidi,yes,162.0,I64.6,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False
+DHA00075,Hassan Fernandez,,77.0,pakistani,dermatology,emergency,2023-12-14,08:15,self_pay,1117.35,Patel,yes,177.0,J66.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00076,Noor Kumar,male,7.0,other,general,follow_up,,19:30,insurance,0.0,Singh,no,133.0,,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False
+DHA00079,Noor Sharma,,13.0,emirati,dermatology,follow_up,2024-05-08,16:00,self_pay,913.77,Kim,no,172.0,I46.2,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00082,Ahmed Santos,,2.0,other,general,procedure,,11:45,self_pay,0.0,Al Rashidi,no,31.0,K42.3,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00084,Mariam Kumar,,43.0,emirati,pediatrics,,2024-02-06,16:15,free,0.0,Patel,no,169.0,J14.5,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00087,Mariam Al Blooshi,female,18.0,filipino,general,,2024-03-16,16:30,insurance,1776.5,Al Rashidi,maybe,127.0,M76.4,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00089,Hassan Kumar,,52.0,,cardiology,consultation,2023-12-24,11:00,waived,0.0,Singh,maybe,162.0,K66.7,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00065,Hassan Sharma,,66.0,pakistani,dermatology,procedure,2023-05-21,18:30,,0.0,Al Marzouqi,maybe,59.0,K94.4,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00097,Ali Santos,,48.0,indian,pediatrics,procedure,2024-12-11,08:00,insurance,2243.74,Singh,yes,26.0,M70.9,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00102,Ahmed Sharma,,58.0,other,dermatology,follow_up,2023-05-04,08:00,insurance,2054.22,Kim,yes,171.0,J78.9,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00103,Noor Al Zaabi,,42.0,british,pediatrics,,2024-01-09,,self_pay,1477.94,Santos,yes,136.0,J29.5,True,False,True,False,False,False,False,False,False,False,True,False,False,False,False
+DHA00105,Noor Fernandez,,33.0,other,pediatrics,procedure,2024-06-26,19:45,free,0.0,Al Marzouqi,no,140.0,J82.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00107,Noor Kumar,,-1.0,indian,cardiology,,2025-02-19,20:45,corporate,1565.84,Patel,no,89.0,K73.4,True,False,True,False,False,False,False,False,False,False,False,False,True,False,False
+DHA00108,Ali Santos,female,4.0,pakistani,general,consultation,2024-12-02,10:00,,52.89,Al Hashimi,maybe,58.0,I81.4,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00110,Fatima Fernandez,,12.0,pakistani,dermatology,emergency,2024-09-03,07:45,,2558.81,Kim,no,14.0,J71.3,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00112,Mohammed Al Zaabi,,12.0,filipino,general,emergency,2024-05-20,07:15,free,0.0,Al Rashidi,no,80.0,J64.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00113,Mohammed Sharma,,48.0,filipino,general,procedure,2024-05-21,20:30,insurance,0.0,Al Marzouqi,no,79.0,M91.0,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00116,Ahmed Al Zaabi,male,2.0,emirati,cardiology,,2023-08-29,11:00,free,0.0,Patel,maybe,19.0,I65.6,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00118,Ahmed Al Blooshi,,78.0,indian,cardiology,procedure,2025-10-05,13:45,self_pay,0.0,Kim,maybe,60.0,,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00120,Ali Kumar,,11.0,emirati,orthopedics,procedure,2024-03-09,08:30,waived,0.0,Al Rashidi,yes,97.0,M48.2,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00125,Fatima Al Blooshi,,17.0,indian,,follow_up,2024-02-20,09:15,free,0.0,Singh,no,18.0,K61.9,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00126,Ali Al Hammadi,male,999.0,,dermatology,procedure,,07:00,insurance,1803.61,Singh,maybe,42.0,I67.0,False,False,False,False,False,True,False,False,True,False,False,False,True,False,False
+DHA00128,Mariam Kumar,,51.0,emirati,pediatrics,consultation,2024-01-10,17:15,self_pay,751.33,Singh,yes,5.0,,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00131,Ahmed Fernandez,,42.0,other,cardiology,procedure,2023-07-23,17:00,insurance,0.0,Al Hashimi,maybe,,K41.4,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+DHA00133,Fatima Kumar,,34.0,indian,general,procedure,2023-08-24,15:30,,,Patel,maybe,52.0,,True,False,False,True,False,False,True,False,False,False,False,False,False,True,False
+DHA00138,Fatima Al Hammadi,,29.0,emirati,general,procedure,2024-06-23,10:30,corporate,2011.84,Kim,,,Z78.7,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+DHA00139,Hassan Al Hammadi,female,84.0,british,general,consultation,,20:45,self_pay,261.43,Al Rashidi,no,44.0,Z91.8,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00142,Noor Al Blooshi,,86.0,,pediatrics,consultation,2023-11-06,11:30,,346.62,Singh,yes,90.0,,True,False,False,True,False,True,True,False,False,False,False,False,False,False,False
+DHA00143,Mohammed Sharma,,11.0,other,dermatology,follow_up,2023-03-08,13:00,corporate,489.25,Al Hashimi,yes,,,True,False,False,False,False,False,True,False,False,False,False,False,False,False,True
+DHA00146,Hassan Al Hammadi,,23.0,filipino,general,,2024-08-03,18:00,corporate,631.11,Al Hashimi,yes,64.0,J85.4,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00148,Noor Al Hammadi,male,150.0,pakistani,pediatrics,,2023-09-28,17:45,insurance,1592.77,Al Hashimi,maybe,99.0,M98.4,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False
+DHA00149,Sara Al Blooshi,,43.0,indian,pediatrics,consultation,2023-08-07,11:30,insurance,1929.67,Patel,no,51.0,I47.7,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00151,Hassan Fernandez,female,34.0,british,general,,2024-12-12,12:45,corporate,2019.32,Al Marzouqi,yes,139.0,Z71.2,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00153,Fatima Fernandez,female,1.0,filipino,dermatology,emergency,2023-11-23,13:30,,0.0,Singh,no,10.0,I62.7,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00157,Noor Al Hammadi,female,57.0,emirati,pediatrics,emergency,2024-10-14,16:45,,0.0,Santos,no,37.0,Z41.1,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00161,Fatima Fernandez,,44.0,other,pediatrics,emergency,2024-08-17,09:30,insurance,0.0,Al Marzouqi,yes,123.0,J46.8,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00164,Hassan Sharma,female,75.0,filipino,dermatology,procedure,,12:15,self_pay,995.89,Al Hashimi,maybe,68.0,Z43.3,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00166,Ahmed Kumar,,0.0,,pediatrics,procedure,2024-12-31,09:30,,0.0,Al Hashimi,no,34.0,J38.4,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False
+DHA00167,Mariam Santos,,62.0,indian,pediatrics,procedure,2024-05-21,21:45,free,0.0,Al Marzouqi,no,98.0,K45.0,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00169,Fatima Fernandez,,7.0,indian,general,,2024-04-16,08:30,insurance,2405.72,Patel,maybe,57.0,,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00174,Ahmed Sharma,,60.0,indian,pediatrics,follow_up,2025-05-17,13:30,self_pay,388.91,Santos,no,,J19.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+DHA00176,Ali Sharma,male,20.0,emirati,dermatology,,2024-07-09,19:00,free,0.0,Singh,maybe,28.0,,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00180,Mohammed Kumar,,,indian,pediatrics,procedure,2023-06-17,08:30,self_pay,2262.75,Al Rashidi,yes,28.0,I91.6,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+DHA00182,Noor Al Zaabi,female,34.0,british,pediatrics,emergency,2024-03-18,13:15,,0.0,Al Hashimi,yes,86.0,M32.4,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00183,Fatima Santos,,49.0,indian,pediatrics,consultation,2023-05-09,08:00,waived,0.0,Al Marzouqi,,,J26.6,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+DHA00187,Hassan Sharma,male,77.0,,dermatology,emergency,,19:00,self_pay,0.0,Santos,no,117.0,Z73.7,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False
+DHA00189,Mariam Al Blooshi,female,53.0,british,general,procedure,,15:00,insurance,340.41,Singh,yes,74.0,Z65.3,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00190,Ahmed Kumar,,67.0,indian,dermatology,follow_up,,13:30,self_pay,2563.61,Singh,maybe,174.0,I76.4,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00194,Ahmed Al Hammadi,,57.0,indian,pediatrics,emergency,2025-02-20,13:15,corporate,2166.29,Santos,maybe,37.0,J87.0,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00196,Mohammed Al Hammadi,,73.0,,orthopedics,consultation,2025-03-04,18:15,waived,0.0,Kim,yes,80.0,Z50.2,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00200,Mohammed Fernandez,,57.0,filipino,cardiology,emergency,2023-09-22,14:15,insurance,2055.93,Al Marzouqi,maybe,113.0,Z39.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00204,Mohammed Al Blooshi,female,77.0,filipino,general,emergency,2023-08-18,17:45,,1558.51,Al Hashimi,yes,85.0,I28.1,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00154,Mohammed Fernandez,female,24.0,other,general,follow_up,2023-12-13,18:30,,0.0,Al Marzouqi,yes,78.0,I15.2,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00206,Fatima Al Zaabi,male,5.0,indian,general,,2023-02-17,08:45,self_pay,0.0,Kim,no,172.0,M49.9,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00044,Fatima Santos,,30.0,british,pediatrics,consultation,2023-04-07,,insurance,1463.63,Patel,yes,8.0,J75.0,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+DHA00153,Ahmed Fernandez,,30.0,,general,procedure,2024-09-23,19:00,self_pay,1193.12,Singh,no,101.0,M86.3,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00215,Fatima Al Zaabi,,49.0,other,pediatrics,consultation,2023-10-28,10:15,insurance,58.82,Kim,no,76.0,M33.2,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00216,Ahmed Kumar,female,34.0,indian,orthopedics,,2023-08-06,,insurance,,Santos,no,132.0,Z96.9,False,False,True,False,False,False,False,False,False,False,True,False,False,True,False
+DHA00217,Ali Santos,female,88.0,other,general,procedure,2024-05-21,14:45,,2765.58,Singh,maybe,62.0,J21.1,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00223,Hassan Al Zaabi,,12.0,british,dermatology,emergency,2025-06-01,16:15,free,0.0,Kim,maybe,128.0,I85.9,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00231,Ali Al Zaabi,,15.0,filipino,dermatology,consultation,2023-07-26,21:00,corporate,1579.85,Kim,no,44.0,,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00233,Mohammed Al Hammadi,,67.0,,cardiology,procedure,2023-01-31,11:15,insurance,2967.26,Al Rashidi,maybe,134.0,M67.2,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00241,Fatima Kumar,,4.0,indian,dermatology,consultation,2024-05-04,21:45,corporate,1862.19,Santos,yes,36.0,K68.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00246,Fatima Fernandez,female,30.0,emirati,cardiology,procedure,2024-12-02,21:00,,2964.14,Singh,no,5.0,M76.5,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00247,Mohammed Al Hammadi,male,17.0,filipino,orthopedics,,2023-02-11,11:45,,2226.42,Santos,yes,59.0,,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False
+DHA00261,Ali Kumar,female,53.0,pakistani,general,,2025-01-15,10:15,self_pay,259.54,Al Hashimi,yes,62.0,Z91.7,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00264,Fatima Fernandez,,40.0,emirati,general,follow_up,2024-11-22,21:30,self_pay,1763.25,Al Hashimi,yes,145.0,Z89.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00266,Hassan Santos,,24.0,filipino,cardiology,procedure,2024-02-06,16:45,insurance,541.73,Al Marzouqi,no,51.0,I29.2,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00267,Mohammed Fernandez,,,filipino,orthopedics,follow_up,2024-03-14,13:00,self_pay,1946.86,Kim,no,94.0,Z38.0,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+DHA00268,Mohammed Al Zaabi,,3.0,emirati,pediatrics,emergency,2024-06-03,15:30,self_pay,2973.77,Singh,maybe,165.0,M79.8,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00269,Ali Fernandez,,,,general,emergency,2024-01-16,12:15,corporate,2396.27,Patel,no,23.0,M67.9,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False
+DHA00278,Ahmed Fernandez,female,9.0,other,dermatology,emergency,2024-02-26,16:30,,0.0,Santos,yes,147.0,J37.6,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00286,Sara Al Zaabi,female,46.0,other,cardiology,,2024-11-26,12:00,waived,0.0,Kim,no,113.0,J94.3,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00288,Fatima Sharma,female,58.0,pakistani,orthopedics,,2025-05-08,07:00,waived,0.0,Al Hashimi,maybe,163.0,M78.1,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00291,Hassan Sharma,female,,british,orthopedics,consultation,,20:45,self_pay,,Singh,yes,158.0,Z12.0,False,False,False,False,False,False,False,False,True,False,False,True,False,True,False
+DHA00294,Mariam Santos,female,25.0,pakistani,orthopedics,,2024-03-13,21:00,self_pay,362.23,Santos,maybe,64.0,,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00298,Noor Sharma,,89.0,,cardiology,procedure,2024-03-09,09:15,self_pay,1695.07,Al Rashidi,no,8.0,J65.8,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00300,Noor Fernandez,,,indian,general,,2025-04-03,10:00,self_pay,2714.52,Kim,yes,38.0,M96.0,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False
+DHA00301,Fatima Santos,,12.0,other,pediatrics,emergency,2023-10-31,12:15,corporate,2504.61,Singh,no,146.0,Z19.4,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00304,Mariam Al Zaabi,,18.0,british,,consultation,2024-08-27,11:00,corporate,587.48,Patel,yes,87.0,M97.2,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00306,Noor Kumar,,85.0,emirati,dermatology,follow_up,2023-05-14,15:15,free,0.0,Al Hashimi,no,146.0,M16.8,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00311,Fatima Al Hammadi,male,73.0,indian,general,,2023-12-04,12:00,free,0.0,Santos,no,102.0,,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00312,Hassan Al Blooshi,,78.0,pakistani,pediatrics,follow_up,2023-10-23,21:15,self_pay,,Kim,,131.0,K18.8,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False
+DHA00316,Mohammed Al Blooshi,male,,other,dermatology,,2023-06-07,19:15,corporate,2223.79,Al Hashimi,maybe,156.0,M63.4,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False
+DHA00320,Fatima Al Zaabi,female,20.0,emirati,orthopedics,,2024-06-27,15:15,corporate,1638.22,Santos,,,I11.2,False,False,True,False,True,False,False,False,False,False,False,False,False,False,True
+DHA00321,Ahmed Santos,,58.0,british,pediatrics,follow_up,2024-05-24,09:00,insurance,0.0,Singh,no,129.0,M39.3,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00322,Ahmed Kumar,,35.0,emirati,dermatology,procedure,,07:30,free,0.0,Al Rashidi,yes,12.0,Z27.2,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00323,Hassan Al Blooshi,female,26.0,filipino,dermatology,emergency,,16:30,self_pay,1835.79,Al Marzouqi,maybe,,,False,False,False,False,False,False,True,False,True,False,False,False,False,False,True
+DHA00328,Sara Santos,,42.0,,dermatology,consultation,2025-03-03,19:45,free,,Patel,maybe,87.0,I40.8,True,False,False,False,False,True,False,False,False,False,False,False,False,True,False
+DHA00028,Sara Fernandez,,28.0,indian,orthopedics,emergency,2023-12-05,09:00,self_pay,2806.2,Kim,yes,90.0,K71.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00341,Ahmed Al Zaabi,,50.0,,cardiology,consultation,2024-12-15,15:30,insurance,0.0,Al Rashidi,no,142.0,,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+DHA00342,Noor Fernandez,female,77.0,filipino,,consultation,,,insurance,1329.94,Al Hashimi,no,119.0,,False,True,False,False,False,False,True,False,True,False,True,False,False,False,False
+DHA00343,Ahmed Santos,,70.0,indian,general,consultation,,16:45,corporate,92.53,Patel,yes,13.0,Z31.9,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00345,Noor Kumar,,84.0,pakistani,pediatrics,emergency,2024-09-05,21:15,corporate,906.06,Al Hashimi,maybe,99.0,M33.5,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00022,Sara Sharma,,31.0,british,dermatology,,,18:00,waived,0.0,Al Marzouqi,no,7.0,M12.6,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00348,Mohammed Al Blooshi,,82.0,other,cardiology,emergency,2024-03-08,14:00,self_pay,,Al Marzouqi,yes,70.0,J63.2,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+DHA00354,Ahmed Al Zaabi,male,60.0,indian,dermatology,,2025-05-26,21:15,insurance,398.15,Al Marzouqi,yes,151.0,J91.7,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00358,Ali Al Hammadi,female,52.0,,dermatology,,2023-02-21,,self_pay,0.0,Patel,maybe,96.0,,False,False,True,False,False,True,True,False,False,False,True,False,False,False,False
+DHA00364,Fatima Sharma,,29.0,pakistani,cardiology,emergency,2024-03-04,17:15,free,0.0,Al Rashidi,yes,118.0,K67.5,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00367,Fatima Kumar,female,38.0,filipino,general,emergency,2024-12-01,15:00,,1187.35,Patel,yes,134.0,M29.2,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00369,Fatima Al Zaabi,,,emirati,dermatology,procedure,2023-05-12,18:15,insurance,,Al Hashimi,maybe,100.0,M42.4,True,False,False,False,False,False,False,False,False,False,False,True,False,True,False
+DHA00373,Ali Al Blooshi,female,30.0,,orthopedics,emergency,2024-05-20,14:30,,,Kim,no,180.0,M15.6,False,False,False,True,False,True,False,False,False,False,False,False,False,True,False
+DHA00374,Noor Kumar,,17.0,emirati,orthopedics,follow_up,2023-04-13,13:15,free,0.0,Al Hashimi,no,128.0,J87.9,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00375,Fatima Santos,female,22.0,indian,pediatrics,consultation,,16:45,corporate,1819.85,Singh,no,174.0,I14.6,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00376,Mohammed Sharma,,89.0,other,dermatology,emergency,2024-03-17,09:30,insurance,1731.05,Al Rashidi,maybe,30.0,Z35.8,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00385,Noor Al Hammadi,,13.0,british,pediatrics,procedure,2024-01-01,13:15,,574.14,Santos,yes,175.0,K31.8,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00388,Ahmed Kumar,female,15.0,british,pediatrics,follow_up,2023-11-29,16:15,,728.71,Santos,yes,74.0,,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+DHA00390,Ali Al Zaabi,female,51.0,other,pediatrics,,2023-09-20,13:45,insurance,2225.85,Santos,,157.0,,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False
+DHA00369,Mohammed Sharma,,43.0,emirati,cardiology,follow_up,2025-02-27,17:15,,0.0,Kim,yes,152.0,Z94.8,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00395,Ahmed Al Hammadi,,35.0,,general,emergency,2023-06-01,20:00,corporate,888.62,Al Marzouqi,no,152.0,M73.6,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00396,Ali Kumar,,79.0,filipino,general,follow_up,2025-03-31,10:15,insurance,570.96,Al Marzouqi,no,144.0,Z38.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00406,Sara Kumar,,62.0,indian,cardiology,emergency,2023-07-18,16:00,,2767.43,Kim,no,83.0,,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+DHA00407,Mohammed Al Zaabi,,11.0,emirati,dermatology,consultation,2024-09-29,07:00,free,0.0,Al Rashidi,yes,115.0,J97.3,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00408,Mariam Al Zaabi,,32.0,indian,general,emergency,2025-04-09,18:30,self_pay,783.78,Kim,yes,19.0,I72.8,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00410,Ahmed Al Hammadi,female,22.0,,dermatology,,2024-08-06,09:30,insurance,1294.75,Al Marzouqi,no,46.0,J73.5,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00417,Sara Al Hammadi,,-1.0,emirati,pediatrics,emergency,2024-09-15,09:15,,0.0,Al Marzouqi,maybe,171.0,I18.7,True,False,False,True,False,False,False,False,False,False,False,False,True,False,False
+DHA00418,Fatima Al Hammadi,,8.0,indian,pediatrics,consultation,2025-02-03,13:45,self_pay,676.19,Al Marzouqi,,129.0,J51.1,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+DHA00420,Ahmed Kumar,,83.0,emirati,orthopedics,follow_up,2024-11-15,12:45,free,0.0,Singh,no,33.0,I19.3,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00425,Ahmed Al Hammadi,,7.0,british,pediatrics,follow_up,2024-05-02,17:45,free,0.0,Patel,no,168.0,M28.7,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00427,Hassan Al Blooshi,,32.0,filipino,dermatology,emergency,2024-05-13,12:00,insurance,0.0,Kim,no,87.0,Z80.0,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00430,Mariam Al Zaabi,female,8.0,british,general,emergency,,19:15,self_pay,1348.93,Al Hashimi,yes,91.0,M33.6,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00431,Mohammed Al Zaabi,,57.0,emirati,pediatrics,emergency,2023-04-23,20:30,free,0.0,Al Hashimi,yes,104.0,I14.4,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00433,Sara Fernandez,,29.0,filipino,orthopedics,procedure,2024-09-16,,corporate,819.09,Singh,maybe,91.0,M41.0,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+DHA00434,Mariam Kumar,,40.0,emirati,cardiology,emergency,2024-06-23,09:15,self_pay,2161.68,Al Marzouqi,no,5.0,K95.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00437,Noor Al Hammadi,male,28.0,indian,general,procedure,2023-07-29,13:45,,,Al Marzouqi,yes,46.0,J17.9,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False
+DHA00441,Ali Santos,,66.0,indian,general,follow_up,2023-01-15,15:30,free,0.0,Al Marzouqi,no,20.0,Z16.3,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00450,Fatima Kumar,,55.0,filipino,general,,2023-02-01,16:15,corporate,1747.68,Patel,no,159.0,J83.4,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00451,Mariam Al Hammadi,,23.0,other,cardiology,,2025-01-04,18:00,corporate,2654.68,Al Hashimi,no,115.0,K56.8,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00452,Ali Al Hammadi,,61.0,,pediatrics,,2023-09-14,09:30,,870.8,Singh,yes,124.0,K59.4,True,False,True,True,False,True,False,False,False,False,False,False,False,False,False
+DHA00455,Mariam Al Hammadi,,0.0,pakistani,pediatrics,procedure,2023-04-03,14:30,corporate,1255.16,Santos,no,33.0,I22.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00457,Hassan Sharma,,,,cardiology,follow_up,2025-02-20,13:30,waived,0.0,Kim,no,49.0,Z10.6,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False
+DHA00461,Fatima Fernandez,,12.0,pakistani,pediatrics,consultation,2024-04-24,17:00,free,0.0,Santos,maybe,,M70.5,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+DHA00468,Ali Kumar,,44.0,emirati,cardiology,follow_up,2024-06-29,12:15,self_pay,2063.34,Kim,maybe,5.0,I42.8,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00471,Mariam Santos,,48.0,other,pediatrics,procedure,2023-04-27,13:30,self_pay,2629.91,Kim,no,81.0,K21.4,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00477,Hassan Al Hammadi,male,45.0,other,general,,2024-05-27,12:00,insurance,,Kim,maybe,20.0,M84.5,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False
+DHA00482,Mohammed Al Blooshi,,9.0,pakistani,general,consultation,2025-04-05,19:15,waived,0.0,Al Marzouqi,no,128.0,,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+DHA00488,Noor Santos,,30.0,indian,orthopedics,procedure,2025-01-09,08:15,self_pay,2289.01,Al Hashimi,,119.0,J94.1,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+DHA00493,Fatima Al Blooshi,,53.0,pakistani,dermatology,procedure,2023-10-27,15:00,corporate,879.71,Patel,yes,172.0,M88.0,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00494,Noor Al Hammadi,,10.0,emirati,general,procedure,2023-08-03,21:30,,0.0,Al Rashidi,yes,135.0,Z44.8,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00496,Sara Santos,,0.0,british,cardiology,consultation,2023-07-17,12:00,self_pay,1550.58,Patel,no,129.0,J88.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00500,Ali Fernandez,,38.0,indian,cardiology,follow_up,2024-01-16,11:45,self_pay,628.72,Kim,no,118.0,M46.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00501,Fatima Santos,male,41.0,emirati,general,procedure,2025-04-11,19:15,,2054.9,Al Hashimi,yes,142.0,M71.6,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00503,Fatima Al Zaabi,,46.0,pakistani,,consultation,2024-04-24,21:30,free,0.0,Patel,no,47.0,I81.4,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00504,Ahmed Al Hammadi,,54.0,british,cardiology,consultation,2024-05-27,08:45,insurance,2654.25,Patel,maybe,102.0,I97.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00505,Ahmed Sharma,,59.0,pakistani,dermatology,consultation,2023-10-29,13:45,corporate,2663.43,Kim,yes,77.0,K41.9,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00507,Ali Santos,,28.0,,cardiology,follow_up,2025-04-21,17:15,self_pay,1409.9,Al Marzouqi,yes,78.0,Z84.2,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00508,Ali Fernandez,male,,filipino,dermatology,emergency,2024-07-30,,,560.53,Al Marzouqi,yes,122.0,I11.2,False,False,False,True,False,False,False,False,False,False,True,True,False,False,False
+DHA00510,Noor Al Hammadi,,,british,,follow_up,2024-07-15,09:15,self_pay,1637.64,Al Rashidi,yes,68.0,J51.5,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False
+DHA00514,Ahmed Sharma,,77.0,emirati,general,consultation,2024-04-16,10:15,self_pay,2450.47,Al Hashimi,maybe,96.0,J77.3,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00517,Hassan Al Blooshi,male,77.0,indian,general,emergency,,14:00,insurance,1859.16,Singh,no,135.0,Z38.0,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00518,Hassan Al Hammadi,male,36.0,emirati,orthopedics,procedure,,13:00,self_pay,1967.69,Al Marzouqi,,62.0,Z47.0,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+DHA00524,Hassan Al Zaabi,female,46.0,pakistani,pediatrics,,2023-11-20,11:30,insurance,,Kim,yes,118.0,M47.4,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False
+DHA00525,Ali Al Blooshi,,88.0,pakistani,dermatology,consultation,2025-03-29,21:15,insurance,758.08,Kim,no,157.0,K13.6,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00543,Noor Sharma,,29.0,emirati,pediatrics,consultation,2024-08-20,08:45,free,0.0,Singh,yes,53.0,M10.2,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00544,Hassan Al Zaabi,male,0.0,,general,follow_up,2023-11-25,15:30,,0.0,Kim,yes,75.0,J40.6,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False
+DHA00548,Fatima Sharma,female,75.0,indian,dermatology,procedure,,18:00,free,0.0,Patel,,94.0,I34.5,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+DHA00559,Sara Fernandez,male,72.0,emirati,pediatrics,procedure,,10:30,free,0.0,Singh,yes,88.0,Z87.4,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00576,Mariam Kumar,,3.0,indian,general,,2024-02-02,16:15,self_pay,2582.57,Kim,yes,179.0,I61.4,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00585,Mariam Santos,,8.0,pakistani,pediatrics,emergency,2023-08-25,19:15,insurance,60.65,Al Hashimi,,129.0,I35.6,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+DHA00586,Ali Fernandez,,48.0,filipino,orthopedics,,2023-10-09,14:45,free,0.0,Al Hashimi,no,50.0,M16.3,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00589,Sara Al Zaabi,,44.0,filipino,cardiology,consultation,2024-09-14,12:15,insurance,980.86,Al Hashimi,yes,43.0,M49.9,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00592,Sara Sharma,female,76.0,emirati,dermatology,follow_up,,14:00,self_pay,247.9,Patel,yes,,,False,False,False,False,False,False,True,False,True,False,False,False,False,False,True
+DHA00596,Hassan Al Zaabi,,66.0,british,dermatology,follow_up,2025-06-01,14:15,corporate,959.56,Al Rashidi,no,165.0,Z38.0,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00598,Sara Santos,male,51.0,emirati,general,follow_up,,14:00,insurance,678.98,Kim,yes,28.0,Z22.4,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+DHA00605,Mariam Kumar,,40.0,emirati,general,follow_up,2023-04-13,15:15,waived,0.0,Kim,maybe,66.0,I18.9,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00606,Mariam Fernandez,,29.0,indian,pediatrics,consultation,2023-12-04,11:30,free,0.0,Al Hashimi,yes,100.0,M14.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00608,Mariam Al Zaabi,,0.0,british,pediatrics,procedure,2024-11-28,09:30,waived,0.0,Al Rashidi,yes,101.0,I42.4,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00610,Fatima Al Hammadi,,73.0,,pediatrics,emergency,2024-02-01,10:45,free,0.0,Al Rashidi,maybe,93.0,M26.4,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+DHA00611,Mariam Sharma,male,53.0,pakistani,orthopedics,,2024-10-21,18:15,corporate,2751.54,Patel,no,54.0,K74.5,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00617,Hassan Fernandez,,49.0,british,pediatrics,emergency,2023-09-27,07:00,self_pay,2909.65,Al Hashimi,no,10.0,J62.8,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00619,Ahmed Kumar,,42.0,british,general,emergency,2024-06-05,21:30,corporate,75.55,Patel,no,123.0,M47.1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00095,Hassan Al Zaabi,,,british,general,emergency,2023-08-03,18:00,corporate,1152.97,Al Rashidi,maybe,171.0,Z80.4,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+DHA00621,Ahmed Santos,male,,indian,pediatrics,emergency,,08:45,insurance,2836.8,Santos,yes,29.0,M61.3,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False
+DHA00624,Hassan Al Hammadi,,14.0,filipino,cardiology,procedure,2024-10-29,13:30,waived,0.0,Al Marzouqi,yes,168.0,M67.7,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00629,Noor Kumar,female,81.0,emirati,cardiology,,2024-02-07,12:45,self_pay,945.59,Santos,no,85.0,K79.9,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00636,Mohammed Al Blooshi,,63.0,indian,dermatology,follow_up,2024-04-06,,insurance,2830.27,Singh,maybe,,M62.3,True,False,False,False,False,False,False,False,False,False,True,False,False,False,True
+DHA00638,Fatima Santos,male,63.0,filipino,,follow_up,2023-02-24,13:30,,0.0,Singh,maybe,45.0,Z13.4,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False
+DHA00644,Mohammed Sharma,,71.0,emirati,general,,2024-04-29,18:15,,2125.55,Santos,no,,J96.1,True,False,True,True,False,False,False,False,False,False,False,False,False,False,True
+DHA00648,Fatima Fernandez,,20.0,other,dermatology,emergency,2025-01-13,08:00,self_pay,2531.49,Al Marzouqi,no,99.0,M57.7,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+DHA00649,Fatima Santos,,70.0,pakistani,general,consultation,2023-11-02,11:15,insurance,2548.63,Al Rashidi,yes,97.0,K70.4,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
