@@ -2,7 +2,13 @@
 
 ## Purpose
 
-This note defines a professional starting point for the telecom customer data quality project.
+This note defines the starting point for the telecom customer data quality project.
+
+The project will reuse the same investigation model:
+
+```text
+Business process -> Business rule -> Check -> Evidence -> Impact -> Recommendation
+```
 
 ## Initial Dataset Profile
 
@@ -13,7 +19,7 @@ Rows: 750
 Columns: 13
 ```
 
-The notebook is not copied into this portfolio yet because it is still an early work file. The portfolio version should be cleaned before publishing.
+The notebook is not copied into this portfolio yet because it is still an early work file.
 
 ## Planned Data Quality Focus
 
@@ -31,11 +37,22 @@ The notebook is not copied into this portfolio yet because it is still an early 
 1. Load synthetic telecom customer data into pandas.
 2. Preserve raw data before cleaning.
 3. Profile columns, nulls, distinct values, duplicates, and data types.
-4. Build business rules for customer identity, contact details, account status, and plan fields.
+4. Build business rules for identity, contact details, account status, and plan fields.
 5. Translate rules into SQL and pandas checks.
-6. Summarize issues in a DQ issue register.
-7. Document findings with evidence, risk, recommendation, and validation needed.
+6. Export cleaned data and flagged review outputs.
+7. Summarize issues in a DQ issue register.
+8. Document findings with evidence, impact, recommendation, and validation needed.
+
+## Candidate Rules
+
+| Area | Draft rule |
+|---|---|
+| Customer identity | Each record should have a stable customer ID |
+| Contact details | Phone and email values should follow accepted formats where required |
+| Account status | Status should use approved values only |
+| Plan | Plan names or codes should match an approved list |
+| Usage records | Usage records should link to a valid key |
 
 ## Portfolio Rule
 
-Only cleaned, reviewed, and reproducible work should be copied into this repo. Early notebooks with local paths, error outputs, or scratch cells should stay in the private learning workspace until polished.
+Only cleaned, reviewed, and reproducible work should be copied into this repo.
