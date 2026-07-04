@@ -14,6 +14,10 @@ This project will investigate synthetic telecom customer data using SQL and Pyth
 - Relationship checks between customers, accounts, plans, and usage records.
 - Stakeholder-ready findings and recommendations.
 
+## Current Notes
+
+- [Initial EDA Plan](docs/initial_eda_plan.md)
+
 ## Status
 
 Planned / not portfolio-ready yet.
