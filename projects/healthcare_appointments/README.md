@@ -2,81 +2,84 @@
 
 ## Project Summary
 
-This project investigates synthetic healthcare appointment data using a Data Quality Engineering workflow. The goal is to identify missing, invalid, inconsistent, duplicated, or relationship-breaking records and translate the evidence into business risks and recommendations.
+This project investigates a synthetic appointment dataset using a Data Quality Engineering workflow. The goal is to profile messy data, clean important fields, flag records that need review, and translate defects into evidence-based findings.
 
 Core case format:
 
 ```text
-Business rule -> Scope -> Defect definition -> Evidence -> Interpretation -> Business risk -> Validation needed
+Business rule -> Scope -> Defect definition -> Evidence -> Interpretation -> Impact -> Validation needed
 ```
 
 ## Current Status
 
-Portfolio project in progress. Current work includes business-rule documentation, pandas EDA summary, completeness check planning, and stakeholder-ready findings structure.
+Active portfolio project. The project now includes a cleaned appointment output, flagged review outputs, business-rule documentation, pandas EDA notes, a cleaning pipeline summary, and SQL check planning.
 
 ## Business Context
 
-Appointment data can support billing readiness, eligibility checks, provider reporting, audit trails, operations, performance metrics, and downstream reconciliation. Data quality issues can weaken trust in those outputs.
+Appointment data can support scheduling, eligibility review, provider attribution, operations reporting, audit trails, performance metrics, and downstream reconciliation. Data quality issues can weaken trust in those outputs.
 
-## Initial Data Quality Dimensions
+## Work Completed So Far
 
-| Dimension | Example question |
+- Profiled a synthetic appointment dataset with 650 rows and 15 source columns.
+- Standardized messy column names into snake_case fields.
+- Normalized category fields such as gender, department, visit type, payment type, follow-up status, and nationality.
+- Cleaned date, time, cost, and waiting-time fields into more analysis-ready formats.
+- Added quality flag columns to identify records needing review.
+- Produced a cleaned appointment output and flagged review outputs.
+- Documented the cleaning pipeline, quality findings, business rules, and reusable finding templates.
+
+## Data Quality Dimensions Covered
+
+| Dimension | Current evidence |
 |---|---|
-| Completeness | Are required fields populated? |
-| Standardization / Conformity | Do values follow approved formats and categories? |
-| Integrity | Do records link to valid reference data? |
-| Validity | Are values inside realistic ranges or accepted domains? |
-| Uniqueness | Are duplicate records inflating counts? |
-| Timeliness | Are dates aligned with status and workflow timing? |
+| Completeness | Critical-null review output and missing-value flags |
+| Standardization / Conformity | Controlled mappings for category fields |
+| Validity | Impossible-value output for unrealistic ages |
+| Uniqueness | Duplicate identifier review noted from notebook work |
+| Timeliness | Date and time parsing logic prepared for future checks |
+| Integrity | SQL relationship checks planned as a next step |
 
-## Current Check Plan
-
-The first check pack focuses on completeness:
-
-1. Missing insurance code.
-2. Completed appointments missing provider attribution.
-3. Completed appointments missing appointment date.
-
-These checks are draft rules until confirmed by a business owner or data owner.
-
-## Repository Files
+## Key Files
 
 ```text
-sql/
-  README.md
-
-docs/
-  business_rules.md
-  pandas_eda_summary.md
-  findings_template.md
-  workflow.md
-  dq_issue_register_template.md
-
 data_sample/
-  README.md
+  dha_appointments_clean_20260512.csv
 
 results/
+  flagged_critical_nulls_20260512.csv
+  flagged_impossible_values_20260512.csv
+
+docs/
+  cleaning_pipeline_summary.md
+  pandas_eda_summary.md
+  business_rules.md
+  dq_issue_register_template.md
+  findings_template.md
+  workflow.md
+
+sql/
   README.md
 ```
 
 ## Skills Demonstrated
 
-- Data quality investigation mindset.
-- SQL Server validation planning.
 - Python/pandas data profiling and wrangling.
+- Column standardization.
+- Controlled-value mapping.
+- Date/time and numeric-field cleaning.
+- Data quality flag generation.
 - Completeness and null/blank detection.
-- Scope versus defect separation.
-- Defect counts and defect percentages.
+- Impossible-value detection.
+- Duplicate-key review.
+- SQL validation planning.
 - Business-rule documentation.
 - Stakeholder-ready findings structure.
-- Connecting technical data issues to operational and reporting risk.
 
 ## Next Steps
 
-- Add sample synthetic data extract.
-- Add reviewed SQL completeness checks.
-- Add pandas profiling notebook or script.
-- Add standardization checks for status, visit type, department, and insurance values.
+- Convert notebook cleaning logic into a clean Python script.
+- Add SQL completeness checks.
+- Add standardization checks for key category fields.
 - Add integrity checks against reference tables.
 - Add duplicate and near-duplicate detection.
-- Add a completed findings summary with sample outputs.
+- Add a completed findings summary using the current review outputs.
