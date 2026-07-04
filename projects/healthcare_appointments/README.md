@@ -12,7 +12,7 @@ Business rule -> Scope -> Defect definition -> Evidence -> Interpretation -> Bus
 
 ## Current Status
 
-Portfolio project in progress. The current version focuses on completeness checks and business-rule documentation. Additional dimensions such as validity, standardization, integrity, uniqueness, and timeliness will be added as the project matures.
+Portfolio project in progress. The current version focuses on business-rule documentation, completeness check planning, and stakeholder-ready findings structure. Additional SQL and pandas deliverables will be added as the project matures.
 
 ## Data Privacy
 
@@ -33,9 +33,9 @@ Appointment data may support billing readiness, eligibility checks, provider rep
 | Uniqueness | Are duplicate records inflating counts? |
 | Timeliness | Are dates logically aligned with status and workflow timing? |
 
-## Current Checks
+## Current Check Plan
 
-The current SQL check pack focuses on completeness:
+The first check pack focuses on completeness:
 
 1. Missing `insurance_code`.
 2. Completed appointments missing `physician_id`.
@@ -47,24 +47,25 @@ These checks are written as draft rules until confirmed by a business owner or d
 
 ```text
 sql/
-  01_completeness_checks.sql
+  README.md
 
 docs/
   business_rules.md
   findings_template.md
-  investigation_framework.md
+  workflow.md
   dq_issue_register_template.md
 
 data_sample/
   README.md
 
-outputs/
+results/
   README.md
 ```
 
 ## Skills Demonstrated
 
-- SQL Server validation checks.
+- Data quality investigation mindset.
+- SQL Server validation planning.
 - Data profiling mindset.
 - Completeness and null/blank detection.
 - Scope versus defect separation.
@@ -76,6 +77,7 @@ outputs/
 ## Next Steps
 
 - Add sample synthetic data extract.
+- Add reviewed SQL completeness checks.
 - Add pandas profiling notebook or script.
 - Add standardization checks for appointment status, visit type, department, and insurance values.
 - Add integrity checks against facility and physician reference tables.
