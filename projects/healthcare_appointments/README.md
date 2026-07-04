@@ -12,7 +12,7 @@ Business rule -> Scope -> Defect definition -> Evidence -> Interpretation -> Imp
 
 ## Current Status
 
-Active portfolio project. The project now includes a cleaned appointment output, flagged review outputs, business-rule documentation, pandas EDA notes, a cleaning pipeline summary, and SQL check planning.
+Active portfolio project. The project now includes a cleaned appointment output, flagged review outputs, business-rule documentation, pandas EDA notes, a cleaning pipeline summary, a findings summary, and SQL check planning.
 
 ## Business Context
 
@@ -26,7 +26,7 @@ Appointment data can support scheduling, eligibility review, provider attributio
 - Cleaned date, time, cost, and waiting-time fields into more analysis-ready formats.
 - Added quality flag columns to identify records needing review.
 - Produced a cleaned appointment output and flagged review outputs.
-- Documented the cleaning pipeline, quality findings, business rules, and reusable finding templates.
+- Documented the cleaning pipeline, findings summary, business rules, and reusable finding templates.
 
 ## Data Quality Dimensions Covered
 
@@ -50,7 +50,9 @@ results/
   flagged_impossible_values_20260512.csv
 
 docs/
+  README.md
   cleaning_pipeline_summary.md
+  findings_summary.md
   pandas_eda_summary.md
   business_rules.md
   dq_issue_register_template.md
@@ -82,4 +84,4 @@ sql/
 - Add standardization checks for key category fields.
 - Add integrity checks against reference tables.
 - Add duplicate and near-duplicate detection.
-- Add a completed findings summary using the current review outputs.
+- Expand the findings summary with SQL evidence after SQL checks are added.
