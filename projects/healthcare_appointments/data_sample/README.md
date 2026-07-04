@@ -1,12 +1,11 @@
 # Data Sample
 
-This folder is reserved for small synthetic sample files used by the healthcare appointment data quality project.
+This folder contains the cleaned CSV used by the portfolio project.
 
-Do not commit private records, credentials, or large raw exports.
+Current file:
 
-Recommended files later:
+```text
+dha_appointments_clean_20260512.csv
+```
 
-- `appointments_sample_raw.csv`
-- `appointments_sample_clean.csv`
-- `facility_reference_sample.csv`
-- `provider_reference_sample.csv`
+The file includes cleaned fields plus DQ flag columns for review.
