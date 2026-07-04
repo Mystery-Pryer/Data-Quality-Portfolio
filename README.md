@@ -47,7 +47,7 @@ projects/
     sql/
     docs/
     data_sample/
-    outputs/
+    results/
   telecom_customers/
     README.md
 ```
