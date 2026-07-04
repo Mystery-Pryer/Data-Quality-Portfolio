@@ -2,7 +2,11 @@
 
 ## Project Summary
 
-This project will investigate synthetic telecom customer data using SQL and Python/pandas.
+This project is the planned second case study in the Data Quality Portfolio. It will investigate synthetic telecom customer and account data using SQL and Python/pandas.
+
+## Status
+
+Planned. The current folder contains a project plan and EDA direction only. It should not be treated as a finished portfolio project yet.
 
 ## Planned Focus
 
@@ -18,8 +22,27 @@ This project will investigate synthetic telecom customer data using SQL and Pyth
 
 - [Initial EDA Plan](docs/initial_eda_plan.md)
 
-## Status
+## Planned Deliverables
 
-Planned / not portfolio-ready yet.
+```text
+data_sample/
+  sample cleaned data
 
-This folder exists so the repository can grow into a multi-project data quality portfolio without mixing study notes into the public structure.
+results/
+  flagged review outputs
+
+docs/
+  business_rules.md
+  findings_summary.md
+  dq_issue_register.md
+
+sql/
+  validation checks
+
+scripts/
+  cleaning or profiling script
+```
+
+## Portfolio Rule
+
+This folder should stay clean. Do not copy early notebooks, scratch cells, local paths, or error outputs into the public portfolio version.
