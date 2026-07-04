@@ -4,7 +4,7 @@
 
 This project investigates synthetic healthcare appointment data using a Data Quality Engineering workflow. The goal is to identify missing, invalid, inconsistent, duplicated, or relationship-breaking records and translate the evidence into business risks and recommendations.
 
-The project is focused on investigation quality, not only technical checks. Each issue should connect:
+Core case format:
 
 ```text
 Business rule -> Scope -> Defect definition -> Evidence -> Interpretation -> Business risk -> Validation needed
@@ -12,15 +12,11 @@ Business rule -> Scope -> Defect definition -> Evidence -> Interpretation -> Bus
 
 ## Current Status
 
-Portfolio project in progress. The current version focuses on business-rule documentation, completeness check planning, and stakeholder-ready findings structure. Additional SQL and pandas deliverables will be added as the project matures.
-
-## Data Privacy
-
-The healthcare data is synthetic. It does not contain real patient data.
+Portfolio project in progress. Current work includes business-rule documentation, pandas EDA summary, completeness check planning, and stakeholder-ready findings structure.
 
 ## Business Context
 
-Appointment data may support billing readiness, eligibility checks, provider reporting, audit trails, clinical operations, facility-level performance metrics, and downstream reconciliation. Data quality issues can weaken trust in those outputs.
+Appointment data can support billing readiness, eligibility checks, provider reporting, audit trails, operations, performance metrics, and downstream reconciliation. Data quality issues can weaken trust in those outputs.
 
 ## Initial Data Quality Dimensions
 
@@ -28,20 +24,20 @@ Appointment data may support billing readiness, eligibility checks, provider rep
 |---|---|
 | Completeness | Are required fields populated? |
 | Standardization / Conformity | Do values follow approved formats and categories? |
-| Integrity | Do appointment records link to valid reference data? |
+| Integrity | Do records link to valid reference data? |
 | Validity | Are values inside realistic ranges or accepted domains? |
 | Uniqueness | Are duplicate records inflating counts? |
-| Timeliness | Are dates logically aligned with status and workflow timing? |
+| Timeliness | Are dates aligned with status and workflow timing? |
 
 ## Current Check Plan
 
 The first check pack focuses on completeness:
 
-1. Missing `insurance_code`.
-2. Completed appointments missing `physician_id`.
-3. Completed appointments missing `appointment_date`.
+1. Missing insurance code.
+2. Completed appointments missing provider attribution.
+3. Completed appointments missing appointment date.
 
-These checks are written as draft rules until confirmed by a business owner or data owner.
+These checks are draft rules until confirmed by a business owner or data owner.
 
 ## Repository Files
 
@@ -51,6 +47,7 @@ sql/
 
 docs/
   business_rules.md
+  pandas_eda_summary.md
   findings_template.md
   workflow.md
   dq_issue_register_template.md
@@ -66,7 +63,7 @@ results/
 
 - Data quality investigation mindset.
 - SQL Server validation planning.
-- Data profiling mindset.
+- Python/pandas data profiling and wrangling.
 - Completeness and null/blank detection.
 - Scope versus defect separation.
 - Defect counts and defect percentages.
@@ -79,7 +76,7 @@ results/
 - Add sample synthetic data extract.
 - Add reviewed SQL completeness checks.
 - Add pandas profiling notebook or script.
-- Add standardization checks for appointment status, visit type, department, and insurance values.
-- Add integrity checks against facility and physician reference tables.
+- Add standardization checks for status, visit type, department, and insurance values.
+- Add integrity checks against reference tables.
 - Add duplicate and near-duplicate detection.
 - Add a completed findings summary with sample outputs.
