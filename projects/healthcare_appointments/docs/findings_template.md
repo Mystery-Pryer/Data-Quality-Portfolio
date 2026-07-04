@@ -1,56 +1,89 @@
 # Findings Template
 
-## Ticket
+Use this template when turning a data quality issue into a stakeholder-ready finding.
 
-Ticket ID or short finding name:
+## Ticket / Finding Name
+
+Short name or issue ID:
 
 ## Business Question
 
-What business question are we trying to answer?
+What question are we trying to answer?
 
 ## DQ Dimension
 
-Completeness, validity, conformity, integrity, uniqueness, timeliness, or another agreed dimension:
+Completeness, validity, conformity, integrity, uniqueness, timeliness, consistency, or another agreed dimension:
 
 ## Business Rule
 
-What should be true if the data is correct?
+What should be true if the data is correct or usable?
 
 ## Scope / Population
 
 Which rows are included before measuring the defect?
 
+Example:
+
+```text
+All appointment records
+Completed appointment records only
+Records from a specific facility, department, or date range
+```
+
 ## Defect Definition
 
 What exact condition makes a row fail the rule?
 
-## What We Know
+## Evidence Source
 
-Facts supported by evidence:
+Reference the evidence used:
 
-## What We Do Not Know
+```text
+SQL query
+pandas output
+cleaned CSV
+flagged review CSV
+record count
+percentage
+sample records
+```
 
-Open questions, missing business rules, or assumptions:
+## Evidence Summary
 
-## Evidence
-
-SQL query, pandas output, record count, sample records, or screenshot reference:
+- Affected record count:
+- Affected percentage, if available:
+- Affected group, if available:
+- Sample evidence file:
 
 ## Interpretation
 
 What does the evidence mean?
 
-## Risk
+## Impact
 
-Business or technical risk if the issue is not fixed:
+What workflow, report, decision, or metric may become unreliable?
 
 ## Recommendation
 
 Recommended action:
 
+```text
+Confirm rule
+Clean values
+Backfill values
+Fix source entry
+Add validation control
+Create monitoring check
+Exclude from reporting until reviewed
+```
+
 ## Validation Plan
 
-How the fix or rule will be tested:
+How will the rule or fix be tested?
+
+## Open Questions
+
+What still needs confirmation from the business owner, data owner, or source-system owner?
 
 ## Limitations
 
