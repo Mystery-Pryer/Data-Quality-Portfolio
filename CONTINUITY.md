@@ -80,3 +80,8 @@ Do not claim publication readiness or completion when required evidence is missi
 ## Clean-machine test
 
 Periodically clone the repository into an empty directory and verify that an external reviewer can understand and reproduce the selected project using only committed instructions and public-safe assets. Record missing dependencies, hidden manual steps, broken links, absent outputs, stale claims, and undocumented assumptions as portfolio defects.
+
+
+## Coordinated DQE safeguards
+
+Read `governance/managed_repository_scope.md` and `governance/promotion_manifest_standard.md`. Safety, privacy, authorization, and non-destructive constraints always govern. Current explicit user intent governs intended changes; verified remote state governs facts and progress. For dirty checkouts, leave existing files untouched and use an isolated worktree when safe. Never reset, rebase, force-push, auto-stash, overwrite, discard, or silently merge work.

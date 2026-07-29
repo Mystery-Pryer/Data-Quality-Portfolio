@@ -1,0 +1,1 @@
+promotion_id,date,source_repository,source_commit,destination_repository,destination_commit,selected_files,sanitization,restriction_review,approval,validation,operator,residual_risks
